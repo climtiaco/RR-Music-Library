@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+#root>div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+}
